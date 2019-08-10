@@ -4,7 +4,7 @@ import re
 import pandas as pd
 import datetime
 
-
+# wiki 网址
 url = 'https://zh.wikipedia.org/wiki/%E6%B2%AA%E6%B7%B1300'
 
 target_html = urlopen(url).read().decode('utf-8')
